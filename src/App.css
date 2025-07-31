@@ -1,0 +1,43 @@
+.search-input {
+	display: flex;
+	width: 50%;
+	height: 30px;
+	margin: 20px auto 30px;
+	padding: 15px;
+	border: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	max-width: 800px;
+	margin: 0 auto 30px;
+}
+.user__body {
+	background: #97b3ae;
+	color: #fff;
+	padding: 16px;
+	border: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.user__name {
+	color: #234dc2;
+	font-weight: bold;
+	font-size: 24px;
+	&:visited {
+		color: #234dc2;
+	}
+}
+
+.user__email {
+	color: #3c3a85;
+	font-size: 14px;
+	font-weight: 600;
+}

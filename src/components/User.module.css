@@ -1,0 +1,33 @@
+.user {
+	max-width: 600px;
+	margin: 50px auto 0;
+	padding: 20px;
+	background: teal;
+}
+.user__list {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	list-style: '—';
+	font-size: 24px;
+	color: #fff;
+	&>li {
+		padding-left: 10px;
+		margin-left: 28px;
+	}
+}
+
+.user__back {
+	color: #fff;
+	background: #000;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 8px;
+	margin-top: 20px;
+	border-radius:10px;
+	&:visited {
+		color: #fff;
+	}
+}
